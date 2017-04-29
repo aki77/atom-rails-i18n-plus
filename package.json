@@ -5,9 +5,6 @@
   "description": "Autocomplete+ provider for Rails I18n",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "autocomplete-rails-i18n:toggle"
-  },
   "repository": "https://github.com/aki77/atom-autocomplete-rails-i18n",
   "license": "MIT",
   "engines": {
