@@ -1,11 +1,14 @@
 {
-  "name": "autocomplete-rails-i18n",
+  "name": "rails-i18n-plus",
   "main": "./lib/main",
   "version": "0.0.0",
   "description": "Autocomplete+ provider for Rails I18n",
   "keywords": [
+    "rails",
+    "i18n",
+    "autocomplete"
   ],
-  "repository": "https://github.com/aki77/atom-autocomplete-rails-i18n",
+  "repository": "https://github.com/aki77/atom-rails-i18n-plus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -32,5 +35,33 @@
     "language-ruby:grammar-used",
     "language-haml:grammar-used",
     "language-ruby-on-rails:grammar-used"
-  ]
+  ],
+  "configSchema": {
+    "localesPaths": {
+      "order": 1,
+      "title": "Locales paths",
+      "description": "Directories list separated by comma(for example \"config/locales, config/foo\")",
+      "type": "array",
+      "default": ["config/locales"]
+    },
+    "priorityOfLocales": {
+      "order": 2,
+      "title": "Priority of locales",
+      "description": "Priority locales list separated by comma(for example \"ja, en\")",
+      "type": "array",
+      "default": ["en"]
+    },
+    "translateMethods": {
+      "order": 10,
+      "title": "Translate methods",
+      "type": "array",
+      "default": ["I18n.translate", "I18n.t", "t"]
+    },
+    "localizeMethods": {
+      "order": 11,
+      "title": "Localize methods",
+      "type": "array",
+      "default": ["I18n.localize", "I18n.l", "l"]
+    }
+  }
 }

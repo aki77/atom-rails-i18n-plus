@@ -1,5 +1,23 @@
-# autocomplete-rails-i18n package
+# Rails I18n Plus
 
-A short description of your package.
+Autocomplete+ provider for Rails I18n
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![screenshot](https://i.gyazo.com/5d186719e4543190407eb610ad7ea568.gif)
+
+Inspired by [ananevam/rails\-i18n\-autocomplete](https://github.com/ananevam/rails-i18n-autocomplete)
+
+## Features
+
+* Autocomplete translate
+* Autocomplete localize
+* Autocomplete prefix path
+
+## Settings
+
+![settings](https://i.gyazo.com/dc6254868cecb85427771fa6e8cadcb2.png)
+
+## TODO
+
+* [ ] Translate tooltip
+* [ ] Watch locale directory
+* [ ] Autocomplete activerecord error message
