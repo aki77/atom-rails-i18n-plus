@@ -1,3 +1,6 @@
+## 0.2.0
+* Support locale directory watch
+
 ## 0.1.1
 * Fix properties of provider
 

@@ -19,5 +19,5 @@ Inspired by [ananevam/rails\-i18n\-autocomplete](https://github.com/ananevam/rai
 ## TODO
 
 * [ ] Translate tooltip
-* [ ] Watch locale directory
+* [x] Watch locale directory
 * [ ] Autocomplete activerecord error message
