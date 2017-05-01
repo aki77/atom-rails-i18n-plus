@@ -1,7 +1,7 @@
 {
   "name": "rails-i18n-plus",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Autocomplete+ provider for Rails I18n",
   "keywords": [
     "rails",
@@ -42,26 +42,38 @@
       "title": "Locales paths",
       "description": "Directories list separated by comma(for example \"config/locales, config/foo\")",
       "type": "array",
-      "default": ["config/locales"]
+      "default": [
+        "config/locales"
+      ]
     },
     "priorityOfLocales": {
       "order": 2,
       "title": "Priority of locales",
       "description": "Priority locales list separated by comma(for example \"ja, en\")",
       "type": "array",
-      "default": ["en"]
+      "default": [
+        "en"
+      ]
     },
     "translateMethods": {
       "order": 10,
       "title": "Translate methods",
       "type": "array",
-      "default": ["I18n.translate", "I18n.t", "t"]
+      "default": [
+        "I18n.translate",
+        "I18n.t",
+        "t"
+      ]
     },
     "localizeMethods": {
       "order": 11,
       "title": "Localize methods",
       "type": "array",
-      "default": ["I18n.localize", "I18n.l", "l"]
+      "default": [
+        "I18n.localize",
+        "I18n.l",
+        "l"
+      ]
     }
   }
 }
