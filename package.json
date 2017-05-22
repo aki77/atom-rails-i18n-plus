@@ -17,6 +17,7 @@
     "bluebird": "^3.5.0",
     "chokidar": "^1.6.1",
     "flat": "^2.0.1",
+    "fuzzaldrin-plus": "^0.4.1",
     "js-yaml": "^3.8.3",
     "lodash.sortby": "^4.7.0"
   },

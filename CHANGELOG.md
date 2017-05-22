@@ -1,3 +1,6 @@
+## 0.3.0
+* Support for fuzzy completion
+
 ## 0.2.1
 * Fix replacementPrefix
 
