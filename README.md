@@ -1,6 +1,6 @@
 # Rails I18n Plus
 
-Autocomplete+ provider for Rails I18n
+Autocomplete+ and hyperclick provider for Rails I18n
 
 ![screenshot](https://i.gyazo.com/5d186719e4543190407eb610ad7ea568.gif)
 
@@ -11,6 +11,7 @@ Inspired by [ananevam/rails\-i18n\-autocomplete](https://github.com/ananevam/rai
 * Autocomplete translate
 * Autocomplete localize
 * Autocomplete prefix path
+* Hyperclick provider
 
 ## Settings
 
@@ -18,6 +19,6 @@ Inspired by [ananevam/rails\-i18n\-autocomplete](https://github.com/ananevam/rai
 
 ## TODO
 
-* [ ] Translate tooltip
+* [x] Hyperclick provider
 * [x] Watch locale directory
 * [ ] Autocomplete activerecord error message

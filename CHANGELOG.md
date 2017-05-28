@@ -1,3 +1,6 @@
+## 0.4.0
+* Add hyperclick provider
+
 ## 0.3.0
 * Support for fuzzy completion
 
