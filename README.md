@@ -2,16 +2,23 @@
 
 Autocomplete+ and hyperclick provider for Rails I18n
 
-![screenshot](https://i.gyazo.com/5d186719e4543190407eb610ad7ea568.gif)
-
-Inspired by [ananevam/rails\-i18n\-autocomplete](https://github.com/ananevam/rails-i18n-autocomplete)
-
 ## Features
 
-* Autocomplete translate
-* Autocomplete localize
-* Autocomplete prefix path
-* Hyperclick provider
+**Autocomplete provider**
+
+![screenshot](https://i.gyazo.com/5d186719e4543190407eb610ad7ea568.gif)
+
+* translate
+* translate prefix
+* localize
+
+**Hyperclick provider**
+
+![screenshot](https://i.gyazo.com/366c3376d1120d82c2dca80328d8ffeb.gif)
+
+## Requirement
+
+* [hyperclick](https://atom.io/packages/hyperclick)
 
 ## Settings
 
