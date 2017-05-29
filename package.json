@@ -6,7 +6,8 @@
   "keywords": [
     "rails",
     "i18n",
-    "autocomplete"
+    "autocomplete",
+    "hyperclick"
   ],
   "repository": "https://github.com/aki77/atom-rails-i18n-plus",
   "license": "MIT",
