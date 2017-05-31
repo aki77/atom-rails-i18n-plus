@@ -1,3 +1,7 @@
+## 0.4.1
+* Use requestIdleCallback
+* Support for busy-signal
+
 ## 0.4.0
 * Add hyperclick provider
 
