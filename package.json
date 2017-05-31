@@ -39,6 +39,13 @@
       }
     }
   },
+  "consumedServices": {
+    "busy-signal": {
+      "versions": {
+        "1.0.0": "consumeSignal"
+      }
+    }
+  },
   "activationHooks": [
     "language-ruby:grammar-used",
     "language-haml:grammar-used",
