@@ -1,3 +1,6 @@
+## 0.4.2
+* Fix LocalizeProvider
+
 ## 0.4.1
 * Use requestIdleCallback
 * Support for busy-signal
